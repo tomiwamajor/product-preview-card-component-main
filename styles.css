@@ -100,7 +100,8 @@ body {
     width: 600px;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    min-height: 100vh;
+    place-items: center;
   }
   .img {
     content: url(./images/image-product-desktop.jpg);
